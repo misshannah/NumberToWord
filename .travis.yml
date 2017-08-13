@@ -1,8 +1,4 @@
 language: java
 sudo: false
-script: mvn clean verify
-install: true
-after_success:
-  - chmod a+x deploy.sh
-  - ./deploy.sh
+
 
