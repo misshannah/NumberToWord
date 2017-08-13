@@ -1,3 +1,4 @@
 language: java
-install: ant install-deps
+install: true
+script: ./mvnw clean install
 
