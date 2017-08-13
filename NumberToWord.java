@@ -1,21 +1,10 @@
 import java.io.*;
 import java.util.*;
 
-/*
-Write a method numToWords(N), that takes in a number, N, and returns the word-equivalent for each 
-digit that makes up that number.
-
-e.g. numToWords(908) => "nine zero eight"
-numToWords(800) => "eight zero zero"
-
-makes sense?
-Yes, how much time do I have?
-you can do as quick as possible, but we've 50 mins for the challenge(s)
- */
 
 class Solution {
   public static void main(String[] args) {
-    // our tests here
+    // my tests here
      System.out.println(numberToWord(11111));
   }
   
